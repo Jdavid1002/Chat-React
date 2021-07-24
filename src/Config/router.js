@@ -29,7 +29,7 @@ const Rutas = () => {
                         { !User ? <Login /> :  <Dashboard /> }
                     </Route>
                     <Route path="/">
-                        <Welcome />
+                    { !User ? <Welcome /> :  <Dashboard /> }
                     </Route>
                 </Switch>
             </Router>
