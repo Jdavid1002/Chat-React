@@ -1,0 +1,57 @@
+.bg-green{
+    background: #00A389;
+}
+
+.text-green{
+    color: #00A389;
+}
+
+.text-sm{
+    font-size: 0.7rem;
+    color: #383838;
+}
+
+.bg-dark-two{
+    background: #151225;
+}
+
+.text-dark-two{
+    color: #151225;
+}
+.text-purple {
+    color: #6545E0;
+}
+.bg-purple{
+    background: #6545E0;
+}
+
+.options-menu{
+    color: white;
+}
+
+.options-menu:hover{
+    color: #6545E0;
+}
+
+.chat-container:hover{
+    animation: 1s opacity;
+}
+
+
+.menu-interfaz{
+    min-height: 30rem;
+}
+
+.scroll{
+    overflow-y: auto;
+    height: 400px;
+}
+
+@keyframes opacity {
+    100%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
+}
