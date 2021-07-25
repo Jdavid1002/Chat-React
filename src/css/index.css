@@ -47,6 +47,16 @@
     height: 400px;
 }
 
+.img-banner-register{
+    background-image: url("../img/register.jpg");
+    background-size: cover;
+}
+
+.img-banner-login{
+    background-image: url("../img/login.jpg");
+    background-size: cover;
+}
+
 @keyframes opacity {
     100%{
         opacity: 1;

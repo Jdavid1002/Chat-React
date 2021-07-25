@@ -37,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </div>
             :
-                <div className="px-5 bg-light p-2 shadow" >
+                <div className="px-5 p-2 shadow" >
                     <div className="row" >
                         <div className="col-md-2" >
                             <div className="d-flex justify-content-center pt-1" >
